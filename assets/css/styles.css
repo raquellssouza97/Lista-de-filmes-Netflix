@@ -6,7 +6,7 @@ body {
 .container {
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 header {
   background-color: #000000;
@@ -14,6 +14,7 @@ header {
   padding: 25px;
   position: fixed;
   top: 0;
+
 }
 header .container {
   display: flex;
@@ -29,8 +30,8 @@ header figure img {
   width: 120px;
   border: none;
   position: absolute;
-  left: 40px; /* posiciona a 90px para a esquerda */ 
-	top: 8px; /* posiciona a 70px para baixo */
+  left: 40px; 
+	top: 8px; 
 
 }
 
@@ -53,15 +54,70 @@ header nav ul {
 }
 
 header nav ul li {
+
 }
 
 header nav ul li a {
+  
   color: #ffffff;
   font-size: 20px;
   font-weight: 400;
-  position: absolute; 
-	left: 150px; /* posiciona a 90px para a esquerda */ 
-	top: 10px; 
+  white-space: nowrap;
+
+  width: 100%;
+  align-items: center;
+  
+}
+header nav ul .menu-inicio {
+  width: 120px;
+  border: none;
+  position: absolute;
+  left: 300px;  
+	top: 8px; 
+  border-bottom-width: 1200px;
+}
+header nav ul .menu-series {
+  width: 120px;
+  border: none;
+  position: absolute;
+  left: 400px;  
+	top: 8px; 
+}
+header nav ul .menu-filmes {
+  width: 120px;
+  border: none;
+  position: absolute;
+  left: 500px;  
+	top: 8px; 
+}
+header nav ul .menu-bombados {
+  width: 120px;
+  border: none;
+  position: absolute;
+  left: 600px;  
+	top: 8px; 
+}
+header nav ul .menu-minhas-listas {
+  width: 120px;
+  border: none;
+  position: absolute;
+  left: 730px;  
+	top: 8px; 
+}
+header nav ul .menu-idiomas-e-legendas {
+  width: 120px;
+  border: none;
+  position: absolute;
+  left: 880px;  
+	top: 8px; 
+}
+header nav ul li a .Inicio{
+  width: 120px;
+  border: none;
+  position: absolute;
+  left: 40px; 
+	top: 8px; 
+
 }
 
 section p {

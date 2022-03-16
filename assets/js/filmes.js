@@ -5,7 +5,8 @@ const filmes = [
     categoria: "Terror",
     descricao:
       "Nesta sequência, um grupo de jovens decide dar vida nova a uma cidade fantasma no Texas, mas acaba se deparando com Leatherface, o famoso m...",
-    url: "https://raw.githubusercontent.com/Kenzie-Academy-Brasil/lista-filmes-kenzie/main/assets/img/image%20(23).png",
+  
+      url: "https://raw.githubusercontent.com/Kenzie-Academy-Brasil/lista-filmes-kenzie/main/assets/img/image%20(23).png",
   },
   {
     id: 2,
